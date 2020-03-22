@@ -1,3 +1,6 @@
+# https://app.codility.com/programmers/lessons/5-prefix_sums/passing_cars/
+
+
 def solution(a):
     n = len(a)
     p = [0] * (n + 1)

@@ -1,3 +1,6 @@
+# https://app.codility.com/programmers/lessons/3-time_complexity/tape_equilibrium/
+
+
 def solution(a):
     t_left = a[0]
     t_right = sum(a) - a[0]

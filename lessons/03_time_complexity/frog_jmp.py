@@ -1,3 +1,6 @@
+# https://app.codility.com/programmers/lessons/3-time_complexity/frog_jmp/
+
+
 def solution(x, y, d):
     j = (y - x) // d
 

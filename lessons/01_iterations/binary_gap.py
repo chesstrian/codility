@@ -1,3 +1,6 @@
+# https://app.codility.com/programmers/lessons/1-iterations/binary_gap/
+
+
 def solution(n):
     b = bin(n)[2:]
 

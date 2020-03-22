@@ -1,3 +1,6 @@
+# https://app.codility.com/programmers/lessons/4-counting_elements/max_counters/
+
+
 def solution(n, a):
     m_c = c_m = 0
     c = [0] * n
