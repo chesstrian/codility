@@ -25,21 +25,12 @@ def solution(a):
     if leader is None:
         return 0
 
-    result = 0
+    result = so_far = 0
+    for i in range(n):
+        if a[i] == leader:
+            so_far += 1
 
-    s1 = a
-    s2 = []
-
-    r1 = repetitions
-    r2 = 0
-
-    for i in range(n - 1):
-        s2.append(s1.pop())
-        if s2[-1] == leader:
-            r1 -= 1
-            r2 += 1
-
-        if r1 > len(s1) // 2 and r2 > len(s2) // 2:
+        if so_far > (i + 1) // 2 and repetitions - so_far > (n - i - 1) // 2:
             result += 1
 
     return result
